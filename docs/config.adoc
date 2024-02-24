@@ -1313,6 +1313,7 @@ while recording with `(dynamic-macro-record 0)` will be ignored.
 <<table-of-contents,Back to ToC>>
 
 The fork action accepts two actions and a key list.
+Only one of the two actions will be executed when the fork is executed.
 The first (left) action will activate by default.
 The second (right) action will activate
 if any of the keys in the third parameter (right-trigger-keys) are currently active.
